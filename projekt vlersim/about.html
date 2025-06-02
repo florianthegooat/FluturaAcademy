@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projekt Vlersim</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        * {
+            font-family: 'Lexend';
+        }
+        body {
+            background-color: antiquewhite;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .navbar {
+            background-color: rgb(86, 155, 86);
+        }
+
+        .navbar .nav-link,
+        .navbar .navbar-brand {
+            color: white;
+        }
+
+        .header {
+            display: grid; 
+            place-items: center;
+            margin-top: 35px;
+        }
+
+        .content {
+            flex: 1;
+            padding: 2rem 0;
+        }
+
+        footer {
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand">Cook Book</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigimiMenu">
+                <span class="navbar-toggle-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navigimiMenu">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link" aria-current="page">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link  active">Rreth Nesh</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Kontakti</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="content">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h2 class="card-title text-center mb-4">Rreth CookBook</h2>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="images/cookbook.jpg" alt="CookBook" class="img-fluid rounded mb-3">
+                                </div>
+                                <div class="col-md-6">
+                                    <p class="lead">CookBook është platforma juaj për receta të shijshme dhe të shëndetshme.</p>
+                                    <p>Ne ofrojmë:</p>
+                                    <ul class="list-unstyled">
+                                        <li><i class="bi bi-check-circle-fill text-success"></i> Receta tradicionale</li>
+                                        <li><i class="bi bi-check-circle-fill text-success"></i> Receta moderne</li>
+                                        <li><i class="bi bi-check-circle-fill text-success"></i> Këshilla gatimi</li>
+                                        <li><i class="bi bi-check-circle-fill text-success"></i> Ide për menu</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="mt-4">
+                                <h4 class="text-center mb-3">Pse të zgjidhni CookBook?</h4>
+                                <div class="row text-center">
+                                    <div class="col-md-4 mb-3">
+                                        <div class="p-3 bg-light rounded">
+                                            <h5>Receta të Provuara</h5>
+                                            <p>Të gjitha recetat tona janë testuar dhe verifikuar</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="p-3 bg-light rounded">
+                                            <h5>Udhëzime të Qarta</h5>
+                                            <p>Hapat e detajuar për rezultate perfekte</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="p-3 bg-light rounded">
+                                            <h5>Përditësime të Rregullta</h5>
+                                            <p>Receta të reja çdo javë</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p class="mb-0">&copy; 2025 Diellza Gjuka per dizajnin All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+</body>
+</html>
